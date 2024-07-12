@@ -8,11 +8,11 @@ const port=3000;
 dotenv.config();
 
 const db=new pg.Client({
-    user:"your_user",
-    host:"your_host",
-    database:"your_database",
-    password:"your_meranaam",
-    port:your_port
+    user:process.env.your_user,
+    host:process.env.your_host,
+    database:process.env.your_database,
+    password:process.env.your_password,
+    port:process.env.your_port,
 });
 
 db.connect(err=>{
