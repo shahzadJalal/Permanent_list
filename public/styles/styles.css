@@ -1,0 +1,96 @@
+/* Reset some default styles */
+body, h1, p, form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full page setup */
+html, body {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Background with linear gradient */
+body {
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main container */
+.box {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Heading style */
+#heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Item styles */
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Checkbox styles */
+input[type="checkbox"] {
+  margin-right: 15px;
+}
+
+/* Edit button styles */
+.edit {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Add item input and button */
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+}
+
+.add {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add:hover {
+  background-color: #4cae4c;
+}
+
+/* Footer styles */
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon styles */
+.icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
